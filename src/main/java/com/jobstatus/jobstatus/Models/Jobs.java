@@ -1,4 +1,4 @@
-package Models;
+package com.jobstatus.jobstatus.Models;
 
 import javax.persistence.*;
 
