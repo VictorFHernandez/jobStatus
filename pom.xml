@@ -11,7 +11,7 @@
     <groupId>com.codeup</groupId>
     <artifactId>springbootassessment</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springbootassessment</name>
+    <name>JobsStatus</name>
     <description>Spring Boot assessment</description>
     <properties>
         <java.version>11</java.version>
