@@ -19,12 +19,12 @@ public class JobsController {
     @GetMapping("/jobs")
     public String viewAllJobs(Model model){
         model.addAttribute("jobs", jobsDao.findAll());
-        return "jobs";
+        return "redirect:/jobs";
     }
 
-    @GetMapping("jobs/{id}")
-    public String viewOneJob(@PathVariable int id, Model model){
-        model.addAttribute("jobStatus", jobsDao.getById(id));
-        return "jobs/staus";
-    }
+//    @GetMapping("jobs/{id}")
+//    public String viewOneJob(@PathVariable long id, Model model){
+//        model.addAttribute("jobStatus", jobsDao.getById(id));
+//        return "home/staus";
+//    }
 }
